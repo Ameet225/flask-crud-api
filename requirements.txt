@@ -1,0 +1,22 @@
+"""
+Application dependencies and requirements.
+
+This file lists all Python packages required to run the Flask CRUD API.
+Install dependencies with: pip install -r requirements.txt
+"""
+
+# Core Flask framework
+Flask==3.0.0
+
+# Flask-SQLAlchemy ORM integration
+Flask-SQLAlchemy==3.1.1
+
+# SQLAlchemy ORM (explicitly specified for consistency)
+SQLAlchemy==2.0.23
+
+# WSGI HTTP Server for production deployment
+gunicorn==21.2.0
+
+# Additional utilities (optional but recommended)
+# For environment variable management
+python-dotenv==1.0.0
